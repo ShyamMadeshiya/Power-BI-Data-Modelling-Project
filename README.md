@@ -24,7 +24,7 @@ The project focuses on identifying fact and dimension tables, cleaning and restr
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack 
 
 • Power BI Desktop
 
