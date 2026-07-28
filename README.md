@@ -233,7 +233,7 @@ PowerBI-DataModel/
 
 ## ⭐ Star Schema
 
-![Star Schema](Snapshot/Snapshot%20of%20Star%20Schema.png)
+![Star Schema](Snapshot/snapshot%20of%20star%20schema.png)
 
 ---
 
