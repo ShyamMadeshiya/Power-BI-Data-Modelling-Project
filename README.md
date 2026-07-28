@@ -1,168 +1,208 @@
-📊 Power BI Data Modeling Project
+# 📊 Power BI Data Modeling Project
 
-📌 Overview
+## 📌 Overview
 
-  This project demonstrates the complete process of transforming a poorly designed Power BI data model into a clean, scalable, and high-performance Star Schema      suitable for analytics and reporting.
+This project demonstrates the process of transforming a poorly designed Power BI data model into a clean, scalable, and high-performance Star Schema suitable for business reporting and analytics.
 
-The project focuses on identifying fact and dimension tables, cleaning and restructuring raw data, applying data modeling best practices, and creating an optimized semantic model for Power BI dashboards.
+The project focuses on identifying fact and dimension tables, cleaning and restructuring raw data, optimizing relationships, and preparing a semantic model for efficient dashboard development.
 
-🎯 Project Objectives
+---
 
-Transform an unstructured data model into a Star Schema
+## 🎯 Project Objectives
 
-Improve report performance by optimizing relationships
+• Transform an unstructured data model into a Star Schema.
 
-Eliminate duplicate and unnecessary data
+• Improve report performance through optimized relationships.
 
-Build reusable Dimension and Fact tables
+• Build reusable Fact and Dimension tables.
 
-Apply consistent naming conventions and modeling standards
+• Remove redundant and unnecessary data.
 
-Prepare the model for scalable business reporting
+• Apply enterprise-level data modeling standards.
 
-🛠️ Technologies Used
+• Prepare the model for scalable reporting.
 
-Power BI Desktop
+---
 
-Power Query (M Language)
+## 🛠️ Technologies Used
 
-Data Modeling
+• Power BI Desktop
 
-DAX
+• Power Query (M Language)
 
-Star Schema Design
+• DAX
 
-Relationship Management
+• Data Modeling
 
+• Star Schema
 
-📂 Dataset Overview
+• Relationship Management
 
-The dataset simulates a real-world business environment containing multiple operational tables such as:
+---
 
-Customers
+## 📂 Dataset Overview
 
-Products
+The dataset represents a real-world business scenario containing multiple operational tables.
 
-Orders
+• Customers
 
-Order Line Items
+• Products
 
-Invoices
+• Orders
 
-Invoice Lines
+• Order Line Items
 
-Payments
+• Invoices
 
-Inventory
+• Invoice Lines
 
-Shipments
+• Payments
 
-Marketing Campaigns
+• Inventory
 
-Exchange Rates
+• Shipments
 
-Sales Targets
+• Marketing Campaigns
 
-Security Tables
+• Exchange Rates
 
+• Sales Targets
 
-The raw model intentionally contains:
+• Security Tables
 
-Many-to-many relationships
-Duplicate tables
-Poor naming conventions
-Redundant columns
-Mixed granularities
-Non-optimized relationships
-🏗️ Data Modeling Process
+The raw dataset intentionally contains:
 
-The project follows a structured four-phase approach:
+• Many-to-many relationships
 
-Phase 1 – Data Exploration
-Understand business entities
-Analyze table granularity
-Identify Fact and Dimension candidates
-Review existing relationships
-Phase 2 – Dimension Modeling
+• Duplicate tables
 
-Created clean dimension tables by merging and transforming related datasets.
+• Poor naming conventions
 
-Example dimensions:
+• Redundant columns
 
-Dim Customer
-Dim Product
-Geography Attributes
+• Mixed granularities
 
-Activities performed:
+• Non-optimized relationships
 
-Merge related tables
-Remove duplicates
-Remove unnecessary columns
-Rename columns
-Standardize naming conventions
-Create surrogate keys where required
-Phase 3 – Fact Modeling
+---
 
-Built optimized fact tables from transactional datasets.
+## 🏗️ Data Modeling Process
 
-Examples:
+### Phase 1 – Data Exploration
 
-Fact Orders
-Fact Invoice
-Fact Payments
-Fact Campaign
+• Analyzed business entities.
 
-Activities:
+• Identified Fact and Dimension tables.
 
-Append yearly datasets
-Preserve transaction granularity
-Connect facts to dimensions
-Validate totals after every transformation
-Phase 4 – Model Optimization
+• Reviewed table granularity.
 
-Final improvements included:
+• Examined existing relationships.
 
-Remove unused tables
-Hide staging tables
-Optimize relationships
-Apply naming standards
-Prepare for Row-Level Security (RLS)
-Validate business metrics
-⭐ Data Modeling Best Practices Applied
-✔ Star Schema Architecture
-✔ One-to-Many Relationships
-✔ Fact & Dimension Separation
-✔ Surrogate Keys
-✔ Power Query Transformations
-✔ Column Optimization
-✔ Relationship Validation
-✔ Data Quality Checks
-✔ Consistent Naming Convention
-✔ Performance Optimization
-📈 Key Data Modeling Concepts
+---
 
-This project demonstrates:
+### Phase 2 – Dimension Modeling
 
-Star Schema Design
-Fact Table Identification
-Dimension Table Creation
-Table Granularity Analysis
-Merge & Append Operations
-Surrogate Key Generation
-Relationship Cardinality
-Left Join Strategy
-Data Cleansing
-Performance Optimization
-Semantic Model Design
-📊 Model Features
-Clean Star Schema
-Optimized Relationships
-Reduced Model Size
-High Query Performance
-Business-Friendly Table Names
-Standardized Columns
-Analytics-Ready Data Model
-📁 Repository Structure
+• Created clean Customer and Product dimensions.
+
+• Merged related tables.
+
+• Removed duplicate records.
+
+• Eliminated unnecessary columns.
+
+• Standardized naming conventions.
+
+• Generated surrogate keys where required.
+
+---
+
+### Phase 3 – Fact Modeling
+
+• Built optimized Fact tables.
+
+• Combined yearly datasets.
+
+• Connected dimensions with fact tables.
+
+• Validated totals after each transformation.
+
+---
+
+### Phase 4 – Model Optimization
+
+• Removed unused tables.
+
+• Hid staging queries.
+
+• Optimized relationships.
+
+• Applied Row-Level Security (RLS) preparation.
+
+• Performed final validation.
+
+---
+
+## ⭐ Data Modeling Best Practices
+
+• Designed a Star Schema.
+
+• Maintained one-to-many relationships.
+
+• Separated Fact and Dimension tables.
+
+• Used surrogate keys.
+
+• Optimized Power Query transformations.
+
+• Removed unnecessary columns.
+
+• Standardized table and column names.
+
+• Improved model performance.
+
+---
+
+## 📈 Key Data Modeling Concepts
+
+• Star Schema Design
+
+• Fact & Dimension Modeling
+
+• Table Granularity
+
+• Merge & Append Operations
+
+• Relationship Cardinality
+
+• Left Join Strategy
+
+• Data Cleansing
+
+• Semantic Modeling
+
+• Performance Optimization
+
+---
+
+## 📊 Model Features
+
+• Clean Star Schema
+
+• Optimized Relationships
+
+• Reduced Model Size
+
+• High Query Performance
+
+• Business-Friendly Naming
+
+• Analytics-Ready Data Model
+
+---
+
+## 📁 Repository Structure
+
+```text
 PowerBI-DataModel/
 │
 ├── Data/
@@ -177,36 +217,36 @@ PowerBI-DataModel/
 │   └── DataModel.pbix
 │
 └── README.md
-📸 Screenshots
-Data Model
+```
 
-(Add your Data Model screenshot here.)
+---
 
-Star Schema
+## 📸 Screenshots
 
-(Add the optimized Star Schema screenshot.)
+### Data Model
 
-Dashboard
+*(Add Data Model screenshot here.)*
 
-(Add your dashboard screenshot if available.)
+### Star Schema
 
-🚀 How to Use
-Clone the repository.
-Open the .pbix file in Power BI Desktop.
-Refresh the data if required.
-Explore the data model.
-Analyze the relationships and dashboards.
-📚 Learning Outcomes
+*(Add optimized Star Schema screenshot here.)*
 
-Through this project, I gained practical experience in:
+### Dashboard
 
-Designing scalable Power BI data models
-Building Star Schema architectures
-Creating optimized dimension and fact tables
-Applying Power Query transformations
-Understanding data granularity
-Managing relationships and cardinality
-Improving Power BI model performance
-Following enterprise data modeling standards
-👨‍💻 Author
+*(Add dashboard screenshot here.)*
+
+---
+
+## 🚀 How to Use
+
+• Clone the repository.
+
+• Open the `.pbix` file in Power BI Desktop.
+
+• Refresh the data if required.
+
+• Explore the data model.
+
+• Analyze the dashboards.
+
 
