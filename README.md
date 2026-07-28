@@ -70,6 +70,8 @@ The dataset represents a real-world business scenario containing multiple operat
 
 • Security Tables
 
+---
+
 The raw dataset intentionally contains:
 
 • Many-to-many relationships
@@ -223,17 +225,15 @@ PowerBI-DataModel/
 
 ## 📸 Screenshots
 
-### Data Model
+## 📸 Data Model
 
-*(Add Data Model screenshot here.)*
+![Data Model](Snapshot/Snapshot%20of%20Data%20Model.png)
 
-### Star Schema
+---
 
-*(Add optimized Star Schema screenshot here.)*
+## ⭐ Star Schema
 
-### Dashboard
-
-*(Add dashboard screenshot here.)*
+![Star Schema](Snapshot/Snapshot%20of%20Star%20Schema.png)
 
 ---
 
